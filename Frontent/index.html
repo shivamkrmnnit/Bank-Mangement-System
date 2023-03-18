@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="E:\Bank Mangement System\Frontent\style.css">
+<style>
+    /*css reser*/
+    body {
+        background-color: rgb(224, 230, 236);
+
+
+        /* font-family: 'Montserrat',cursive; */
+        background-color: white;
+        margin: 0px;
+        padding: 0px;
+        /* background: url("Statics/Background1.jpg"); */
+        height: 1000 px;
+    }
+
+    .left {
+        position: absolute;
+        left: 34px;
+        top: 20px;
+        /* display: inline-block; */
+        /* border: 2px solid rebeccapurple; */
+
+    }
+
+    .left img {
+        left: 34px;
+        width: 44px;
+
+        /* color: rgba(9, 145, 124, 0.912); */
+        /* background: #7b7fab8c; */
+    }
+
+    .left div {
+        text-align: center;
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid rgb(104, 8, 64); */
+    }
+
+    .mid {
+        display: block;
+        width: 100%;
+        margin: 85px auto;
+        background: #11287d;
+
+        /* border: 2px Ssolid rgb(51, 153, 56); */
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        text-decoration: none;
+        padding: 34px 18px;
+        color: white;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+
+    }
+
+    .btn {
+
+        margin: 0px;
+
+        color: white;
+        padding: 5px 8px;
+        border: 1px solid grey;
+        
+        font-size: 20px;
+        cursor: pointer;
+        /* font-family: 'Montserrat',cursive; */
+        background: blue;
+    }
+
+    .btn:hover {
+        background-color: grey;
+    }
+
+    .btn1 {
+
+        margin: 53px;
+        color:white;
+        padding: 5px 9px;
+        border: 2px solid grey;
+        
+        font-size: 20px;
+        cursor: pointer;
+        /* font-family: 'Montserrat',cursive; */
+        background: blue;
+    }
+
+    .btn1:hover {
+        background-color: grey;
+    }
+
+    .container {
+        /* background-color: rgba(30, 200, 197, 0.886); */
+        border: 1px solid black;
+        margin-top: 5px;
+
+        width: 50%;
+        height: 366px;
+        background: #d9e3e79e;
+
+    }
+
+    .form-group input {
+        font-family: 'Montserrat', cursive;
+        text-align: center;
+        display: block;
+        width: 366px;
+        padding: 10px 24px;
+        border: 2px solid black;
+        margin: 4px -171px;
+        border-radius: 8px;
+        font-size: 25px;
+
+
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .form-group {
+        display: block;
+        width: 23%;
+        margin: auto;
+
+    }
+
+    .container button {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .main-container {
+        display: flex;
+    }
+
+    .sign-container {
+        border: 1px solid black;
+        width: 28%;
+        /* border-radius: 3%; */
+        /* padding: 42px 11px; */
+        /* background-color: rgb(90 201 222); */
+        margin-top: 5px;
+        width: 625px;
+        margin-right: -13px;
+        margin-left: 10px;
+        background: #d9e3e79e;
+    }
+
+    .logo-name {
+        border: black;
+        display: inline-block;
+        font-size: 59px;
+        text-decoration: blue;
+        padding: 0px 60px;
+        font-weight: bold;
+        color: #23098a;
+    }
+
+    .main {
+        margin: -2px 205px;
+        padding: 9px 1px;
+        /* background-color: red; */
+    }
+
+    .bottom-img {
+        left: 34px;
+        width: 44px;
+        right: 20px;
+        margin-top: 312px;
+    margin-left: -7px;
+
+    }
+
+    .box1 {
+        margin-top: -74px;
+        padding-left: 6%;
+        font-weight: 900;
+        color: red;
+        border: 1px solid black;
+        background: #d9e3e79e;
+
+
+    }
+    .box2{
+        position: absolute;
+    left: 34px;
+    top: 20px;
+    border: 1px solid black;
+    width: 1274px;
+    height: 300px;
+    margin-left: 170px;
+    margin-top: 609px;
+    background: #d9e3e79e;
+    }
+    .navbar1 {
+        display: inline-block;
+    }
+
+    .navbar1 li {
+        display: inline-block;
+        font-size: 25px;
+        /* color:#11287d; */
+        padding-top: 31px;
+    }
+
+    .navbar1 li a {
+        text-decoration: none;
+        padding: 34px 18px;
+        color: #2d25bb;
+}
+    .navbar1 li a:hover,
+    .navbar1 li a.active {
+        text-decoration: underline;
+        color: grey;
+
+    }
+    .p{
+        margin-left:30px;
+    }
+    .person-img{
+        width: 20px;
+        height: 20px;
+        margin-left: 30px;
+    }
+    .personal-banking{
+        margin-left: 300px;
+    }
+    .que-img{
+        margin-left: 147px;
+        margin-bottom: -86px;
+    }
+    .customber-img{
+        margin-left: 315px;
+    margin-bottom: -84px;
+    }
+    .lock-img{
+        margin-left: 507px;
+    }
+    .person-img1{
+        width: 20px;
+    height: 20px;
+    margin-left: 305px;
+    margin-bottom: 12px;
+    }
+   
+</style>
+
+<body>
+    <header class="header">
+        <!--left box for logo -->
+        <div class="main">
+            <div class="left">
+                <img src="Statics/BankingLogo.png" alt="">
+                <div class="logo-name">Lakshmi Chit Funds </div>
+
+            </div>
+
+
+            <!--mid box for navbar-->
+            <div class="mid">
+                <ol class="navbar">
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Mobile Banking</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">LCF Collect</a></li>
+                    <li><a href="#">mCash</a></li>
+                    <li><a href="#">NSP</a></li>
+                    <li><a href="#">LCF Loans</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ol>
+            </div>
+            <div class="box1">
+                <p class="p">If slowness is observed duing Login Page loading ,please refresh the page for better experience</p>
+                <p class="p">LCF asks for confidential information such as PIN and OTP from customers.Please share personal info.
+                </p>
+            </div>
+            <!--right box for login and contact us-->
+            <div class="right">
+                <button class="btn">Call Us Now</button>
+                <button class="btn">Email Us</button>
+            </div>
+
+            <div class="main-container">
+                <div class="container">
+                    <h1>
+                        PERSONAL BANKING
+                    </h1>
+                    <div class="personal-banking">
+                    <img src="Statics/PersonalBanking1.png" alt="">
+                </div>
+                    <form action="noaction.php">
+                        <button class="btn1">LOGIN</button>
+
+                    </form>
+                    <P class="p">LCF's internet banking portal provides personal banking services that gives you complete control
+                        over all your banking demands online.</P>
+                        <div class="person-img">
+                        <img src="Statics/Person1.png" alt="">
+                        <p>New User Registration</p>
+                    </div>
+                    <div class="que-img">
+                        <img src="Statics/Que1.png" alt="">
+                        <p>How Do I</p>
+                    </div>
+                    <div class="customber-img">
+                        <img src="Statics/customberCare1.png" alt="">
+                        <p>Customer Care</p>
+                    </div>
+                    <div class="lock-img">
+                        <img src="Statics/lock1.jpg" alt="">
+                        <p>Lock & Unlock User</p>
+                    </div>
+                </div>
+                <div class="container">
+                    <h1>REGISTER YOURSELF</h1>
+                    <div class="person-img1">
+                        <img src="Statics/Person1.png" alt="">
+                        </div>
+                    <button class="btn">Sign up</button>
+                    <P class="p">Have you tried our new simplified and intuitive business banking platform? Log in to yonobusiness.lcf to avail business banking services.</P>
+                    <p class="p">Corporate Banking application to administer and manage non personal accounts online.
+
+                    </p>
+
+                    </form>
+               
+            </div>
+        </div>
+        <div class="box2"> 
+            <ul class="navbar1">
+                <li><a href="#">RBI Retail Direct portal</a></li>
+                <li><a href="#">Block ATM Card</a></li>
+                <li><a href="#">Customer Request and Complaint</a></li>
+                <li><a href="#">Banking Forms</a></li>
+                <li><a href="#">Linking of PAN with Aadhaar</a></li>
+                <li><a href="#">LCF General Insurance Document Download</a></li>
+                <li><a href="#">LCF FasTag</a></li>
+                <li><a href="#">LCF Salary Account</a></li>
+                <li><a href="#">NRI Services</a></li>
+                <li><a href="#">Fair Lending Practice Code</a></li>
+                <li><a href="#">LCFCAP Securities</a></li>
+                <li><a href="#">LCFCAP Trustee Company Ltd</a></li>
+                <li><a href="#">LCF Express Remit</a></li>
+                <li><a href="#">LCF Mutual Fund</a></li>
+                <li><a href="#">LCF Life Insurance</a></li>
+                <li><a href="#">LCF Card</a></li>
+            </ul>
+        </div>
+            <div class="bottom-img">
+                <img src="Statics/Bottom5.png" alt="">
+
+
+            </div>
+        </div>
+    </header>
+
+</body>
+
+</html>
