@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+   <meta charset="utf-8">
+   <title>Create New Account</title>
+   <link rel="stylesheet" href="NewReg.css">
+</head>
+<body>
+    <div class="center">
+     <h1>Fill Your Information:</h1>
+     <form method="post" action="Page2.html">
+        <div class="txt_field">
+           <label for="fname">First Name</label>
+           <input type="text" id="fname" name="fname" required>      
+        </div>
+  
+        <div class="txt_field">
+           <label for="lname">Last Name</label>
+           <input type="text" required>
+        </div>
+        
+        <div class="txt_field">
+           <label for="name">Father's/Husband's Name</label>
+           <input type="text" id="name" name="name" required>      
+        </div>
+        
+        <div class="txt_field">
+            Date of Birth <input type="date">
+        </div>
+        
+        <div class="txt_field">
+           <label for="phone">Mobile Number</label>
+           <input type="tel" id="phone" name="phone" pattern="[1-9]{1}[0-9]{9}" required>
+        </div>
+        
+        <div class="txt_field">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email">
+        </div>
+        
+        <div class="txt_field">
+           <label for="phone">Aadhaar Number</label>
+           <input type="tel" id="phone" name="phone" pattern="[0-9]{4} [0-9]{4} [0-9]{4}" required>
+        </div><br>
+        
+        <div class="txt_field">
+           <label for="phone">PAN Number</label>
+           <input type="tel" id="phone" name="phone" pattern="[A-Z]{5}[0-9]{4}[A-Z]{1}" required>
+        </div>
+       
+        <div>
+        <label for="address">Address</label>
+        <input type="text" id="address" name="address" autocomplete="address" required enterkeyhint="next"></input>
+      </div>
+      
+      <div>
+        <label for="postal-code">PIN Code (optional)</label>
+        <input class="postal-code" id="postal-code" name="postal-code" autocomplete="postal-code" enterkeyhint="next">
+      </div>
+        
+        <div class="txt_field">
+           <label for="pwd">Create Password</label>
+	   <input type="pwd" id="pwd" name="pwd">
+	</div>
+       
+        <div class="txt_field">
+           <label for="pwd">Re-enter Password</label>
+	   <input type="pwd" id="pwd" name="pwd">
+	</div><br><br>
+	
+	<input type="submit" value="Next"> 
+	
+     </form>           
+  </div>
+</body>
+</html>
